@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Increment-button</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Click the button. Watch the number go up. Feel the power.</h1>
-    <button id="button" onclick=incrementer()>0</button>
-    <button onclick=reset()>Reset</button>
+    <div class="hover-container">
+        <h1 class="explosive-text">Click the button. Watch the number go up. Feel the power.</h1>
+    </div>
+    <div>
+        <button id="button" onclick=incrementer()>0</button><br/>
+    </div>
+    <div>
+        <button onclick=reset() class="reset">Reset</button>
+    </div>
 </body>
 </html>
