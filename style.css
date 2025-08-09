@@ -1,11 +1,5 @@
-#button {
-    width: 100px;
-    height: 100px;
-}
-
-.reset {
-    width: 100px;
-    height: 60px;
+body {
+    background-color: #000000;
 }
 
 div {
@@ -24,7 +18,7 @@ div {
 
 .explosive-text {
     font-size: 3rem;
-    color: #000000;
+    color: #ffffff;
     letter-spacing: 0.1em;
     display: inline-block;
     position: relative;
@@ -85,6 +79,8 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  height: 100px;
+  width: 100px;
 }
 
 button:before {
