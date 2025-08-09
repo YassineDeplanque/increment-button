@@ -1,23 +1,23 @@
-Click Counter
+# Click Counter
 
-This project is a simple web application featuring two buttons.
-Each time the increment button is clicked, a counter increases and displays the updated value.
-The reset button sets the counter back to zero.
+A simple web application featuring two buttons: increment and reset.
 
-Usage
+## Features
 
-To see the project in action:
+- **Increment button**: Increases the counter on each click.
+- **Reset button**: Sets the counter to zero.
+- **Dynamic display**: Shows the current counter value in real-time.
 
-    Open the index.html file in your preferred web browser.
+## Usage
 
-    Click the increment button to increase the counter.
+1. Open the `index.html` file in your web browser.
+2. Click the **Increment** button to increase the counter.
+3. Click the **Reset** button to set the counter back to zero.
 
-    Click the reset button to set the counter back to zero.
+<!-- Optionally add a screenshot here -->
+<!-- ![Screenshot](screenshot.png) -->
 
-Features
+## Requirements
 
-    Increment button that increases the counter on each click.
-
-    Reset button that sets the counter to zero.
-
-    Dynamic display of the current counter value.
+- No installation required.
+- Works in any modern web browser.
