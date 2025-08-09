@@ -1,8 +1,11 @@
 let num = 1;
+let button = document.getElementById("button");
 
-function incrementer() { 
-    let button = document.getElementById("button");
+function incrementer() {   
     button.innerText = num;
     num++;
-    console.log('test')
+}
+function reset() {
+    num = 1;
+    button.innerText = 0;
 }
